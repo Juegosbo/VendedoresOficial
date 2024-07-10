@@ -84,8 +84,31 @@ main {
 }
 
 #countdown {
-    font-size: 0.1em;
+    font-size: 2em; /* Tamaño del contador en pantallas grandes */
     color: #ff4081;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header h2 {
+        font-size: 1.5em;
+    }
+
+    #countdown {
+        font-size: 1.5em; /* Tamaño del contador en dispositivos móviles */
+    }
+
+    .informacion p, .informacion ul {
+        font-size: 1em;
+    }
+
+    .contador h2 {
+        font-size: 1.5em;
+    }
 }
 
 .vendedores {
