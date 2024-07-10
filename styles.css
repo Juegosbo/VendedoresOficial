@@ -4,7 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: #333;
-    background: url('FONDO ROJO.jfif') no-repeat center center fixed;
+    background: url('fondorojo.png') no-repeat center center fixed;
     background-size: cover;
 }
 
